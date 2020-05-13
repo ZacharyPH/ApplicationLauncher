@@ -49,3 +49,9 @@ def sort_paths(filename="paths.csv") -> None:
         file.write("APPLICATION, PATH\n")
         for app, path in paths.items():
             file.write(app + "," + path)
+
+
+def add_app(name, path):
+    pass
+    # TODO: Implement
+    sort_paths()
